@@ -155,7 +155,7 @@ The system uses OpenAI's GPT-4o by default. To use a different model:
 ```
 python main.py --model gpt-4.5-preview
 ```
-N.B: This is a really expensive model, thus haven't used it for this submission but has the ability if the user chooses to do so.
+**N.B: This is a really expensive model, thus I didn't used it for this submission but has the ability if the user chooses to do so.**
 
 ## Behind the Scenes
 
