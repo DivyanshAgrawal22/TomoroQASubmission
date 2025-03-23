@@ -50,7 +50,7 @@ financial_qa/
     └── qa_history/           # QA session history
 ```
 
-`**data/**` - *Handles all data-related operations*
+**`data/`** - *Handles all data-related operations*
 
 * Loading datasets from JSON files
 * Parsing and formatting document content
@@ -58,14 +58,14 @@ financial_qa/
 * Common utilities for working with financial documents
 
 
-`**models/**` - *Contains the core QA system implementation*
+**`models/`** - *Contains the core QA system implementation*
 
 * The main QA system class that processes questions and generates answers
 * Document retrieval algorithms for finding relevant documents
 * Interface with the OpenAI API for LLM-based question answering
 
 
-`**evaluation/**` - *Manages the evaluation framework*
+**`evaluation/`** - *Manages the evaluation framework*
 
 * Metrics calculation for measuring system performance
 * Report generation for evaluation results
@@ -73,7 +73,7 @@ financial_qa/
 * Evaluation utilities for processing results
 
 
-`**utils/**` - *Houses general utility functions*
+**`utils/`** - *Houses general utility functions*
 
 * Text processing utilities for normalizing answers
 * Logging setup and configuration
