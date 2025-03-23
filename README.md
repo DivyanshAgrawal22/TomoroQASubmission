@@ -62,8 +62,8 @@ financial_qa/
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/financial-qa.git
-   cd financial-qa
+   git clone https://github.com/DivyanshAgrawal22/TomoroQASubmission
+   cd TomoroQASubmission
    ```
 
 2. Install required packages:
@@ -73,7 +73,7 @@ financial_qa/
 
 3. Create a `.env` file in the project root with:
    ```
-  OPENAI_API_KEY=your_api_key_here
+    OPENAI_API_KEY=your_api_key_here
    ```
 
 ## Dataset Format
