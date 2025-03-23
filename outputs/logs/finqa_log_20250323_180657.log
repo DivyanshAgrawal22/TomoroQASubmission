@@ -1,0 +1,90 @@
+2025-03-23 18:06:57,942 - DataLoader - INFO - Found dataset at data/train.json
+2025-03-23 18:06:58,137 - DataLoader - INFO - Loaded 3037 examples from data/train.json
+2025-03-23 18:06:58,183 - QASystem - INFO - Initialized QA system with model: gpt-4o
+2025-03-23 18:06:58,184 - Evaluation - INFO - Starting evaluation
+2025-03-23 18:06:58,185 - Evaluation - INFO - Found 2109 valid examples with qa/question/answer out of 3037 total
+2025-03-23 18:06:58,185 - Evaluation - INFO - Examples randomized for evaluation
+2025-03-23 18:06:58,185 - Evaluation - INFO - Limiting evaluation to 10 examples
+2025-03-23 18:06:58,185 - Evaluation - INFO - Processing example 1/10 (599186.29/sec, ETA: 0.0 seconds)
+2025-03-23 18:06:58,185 - Evaluation - INFO - Question: what was the percentage change in the redeemable noncontrolling interests from 2009 to 2010
+2025-03-23 18:06:58,185 - Evaluation - INFO - Getting answer for: what was the percentage change in the redeemable noncontrolling interests from 2009 to 2010
+2025-03-23 18:06:58,185 - QASystem - INFO - Sending request to OpenAI API for question: what was the percentage change in the redeemable noncontrolling interests from 2009 to 2010
+2025-03-23 18:07:01,408 - QASystem - INFO - Received response in 3.22 seconds
+2025-03-23 18:07:01,408 - QASystem - INFO - Token usage: 731 prompt, 281 completion
+2025-03-23 18:07:02,945 - Evaluation - INFO -   Ground truth: 6.1%
+2025-03-23 18:07:02,946 - Evaluation - INFO -   Prediction: 6.1%
+2025-03-23 18:07:02,946 - Evaluation - INFO - Processing example 2/10 (0.42/sec, ETA: 19.0 seconds)
+2025-03-23 18:07:02,946 - Evaluation - INFO - Question: by what percentage did the average crack spread for sweet/sour differential decrease from 2007 to 2009?
+2025-03-23 18:07:02,946 - Evaluation - INFO - Getting answer for: by what percentage did the average crack spread for sweet/sour differential decrease from 2007 to 2009?
+2025-03-23 18:07:02,946 - QASystem - INFO - Sending request to OpenAI API for question: by what percentage did the average crack spread for sweet/sour differential decrease from 2007 to 2009?
+2025-03-23 18:07:05,902 - QASystem - INFO - Received response in 2.96 seconds
+2025-03-23 18:07:05,903 - QASystem - INFO - Token usage: 1335 prompt, 301 completion
+2025-03-23 18:07:07,334 - Evaluation - INFO -   Ground truth: -49.8%
+2025-03-23 18:07:07,335 - Evaluation - INFO -   Prediction: 49.8%
+2025-03-23 18:07:07,335 - Evaluation - INFO - Processing example 3/10 (0.33/sec, ETA: 21.3 seconds)
+2025-03-23 18:07:07,335 - Evaluation - INFO - Question: what is the growth rate in the balance of unrecognized tax benefits during 2010?
+2025-03-23 18:07:07,335 - Evaluation - INFO - Getting answer for: what is the growth rate in the balance of unrecognized tax benefits during 2010?
+2025-03-23 18:07:07,336 - QASystem - INFO - Sending request to OpenAI API for question: what is the growth rate in the balance of unrecognized tax benefits during 2010?
+2025-03-23 18:07:10,305 - QASystem - INFO - Received response in 2.97 seconds
+2025-03-23 18:07:10,306 - QASystem - INFO - Token usage: 2112 prompt, 284 completion
+2025-03-23 18:07:12,049 - Evaluation - INFO -   Ground truth: -28.0%
+2025-03-23 18:07:12,050 - Evaluation - INFO -   Prediction: -28.0%
+2025-03-23 18:07:12,050 - Evaluation - INFO - Processing example 4/10 (0.29/sec, ETA: 20.8 seconds)
+2025-03-23 18:07:12,051 - Evaluation - INFO - Question: what is the growth rate of revenue from 2007 to 2008?
+2025-03-23 18:07:12,051 - Evaluation - INFO - Getting answer for: what is the growth rate of revenue from 2007 to 2008?
+2025-03-23 18:07:12,051 - QASystem - INFO - Sending request to OpenAI API for question: what is the growth rate of revenue from 2007 to 2008?
+2025-03-23 18:07:15,776 - QASystem - INFO - Received response in 3.72 seconds
+2025-03-23 18:07:15,777 - QASystem - INFO - Token usage: 911 prompt, 444 completion
+2025-03-23 18:07:17,529 - Evaluation - INFO -   Ground truth: 3.5%
+2025-03-23 18:07:17,530 - Evaluation - INFO -   Prediction: 3.6%
+2025-03-23 18:07:17,530 - Evaluation - INFO - Processing example 5/10 (0.26/sec, ETA: 19.3 seconds)
+2025-03-23 18:07:17,530 - Evaluation - INFO - Question: based on the calculated increase in locomotive diesel fuel price in 2012 , what is the estimated total fuel cost for 2012?
+2025-03-23 18:07:17,530 - Evaluation - INFO - Getting answer for: based on the calculated increase in locomotive diesel fuel price in 2012 , what is the estimated total fuel cost for 2012?
+2025-03-23 18:07:17,530 - QASystem - INFO - Sending request to OpenAI API for question: based on the calculated increase in locomotive diesel fuel price in 2012 , what is the estimated total fuel cost for 2012?
+2025-03-23 18:07:21,190 - QASystem - INFO - Received response in 3.66 seconds
+2025-03-23 18:07:21,191 - QASystem - INFO - Token usage: 1216 prompt, 330 completion
+2025-03-23 18:07:22,641 - Evaluation - INFO -   Ground truth: 1050000000
+2025-03-23 18:07:22,642 - Evaluation - INFO -   Prediction: $3,608 million
+2025-03-23 18:07:22,642 - Evaluation - INFO - Processing example 6/10 (0.25/sec, ETA: 16.3 seconds)
+2025-03-23 18:07:22,642 - Evaluation - INFO - Question: at december 31 , 2009 , what was the remaining compensation expense per share for the unvested awards?
+2025-03-23 18:07:22,642 - Evaluation - INFO - Getting answer for: at december 31 , 2009 , what was the remaining compensation expense per share for the unvested awards?
+2025-03-23 18:07:22,642 - QASystem - INFO - Sending request to OpenAI API for question: at december 31 , 2009 , what was the remaining compensation expense per share for the unvested awards?
+2025-03-23 18:07:25,560 - QASystem - INFO - Received response in 2.92 seconds
+2025-03-23 18:07:25,561 - QASystem - INFO - Token usage: 807 prompt, 273 completion
+2025-03-23 18:07:26,698 - Evaluation - INFO -   Ground truth: 20.75
+2025-03-23 18:07:26,698 - Evaluation - INFO -   Prediction: **
+2025-03-23 18:07:26,698 - Evaluation - INFO - Processing example 7/10 (0.25/sec, ETA: 12.2 seconds)
+2025-03-23 18:07:26,698 - Evaluation - INFO - Question: what was the percent of the growth of the the priceline group inc . from 2014 to 2015
+2025-03-23 18:07:26,699 - Evaluation - INFO - Getting answer for: what was the percent of the growth of the the priceline group inc . from 2014 to 2015
+2025-03-23 18:07:26,699 - QASystem - INFO - Sending request to OpenAI API for question: what was the percent of the growth of the the priceline group inc . from 2014 to 2015
+2025-03-23 18:07:29,924 - QASystem - INFO - Received response in 3.22 seconds
+2025-03-23 18:07:29,924 - QASystem - INFO - Token usage: 497 prompt, 343 completion
+2025-03-23 18:07:31,192 - Evaluation - INFO -   Ground truth: 11.8%
+2025-03-23 18:07:31,192 - Evaluation - INFO -   Prediction: **
+2025-03-23 18:07:31,192 - Evaluation - INFO - Processing example 8/10 (0.24/sec, ETA: 8.3 seconds)
+2025-03-23 18:07:31,192 - Evaluation - INFO - Question: what was the percent of the increase the additions for new sales of the repurchase reserve from 2008 to 2009
+2025-03-23 18:07:31,192 - Evaluation - INFO - Getting answer for: what was the percent of the increase the additions for new sales of the repurchase reserve from 2008 to 2009
+2025-03-23 18:07:31,192 - QASystem - INFO - Sending request to OpenAI API for question: what was the percent of the increase the additions for new sales of the repurchase reserve from 2008 to 2009
+2025-03-23 18:07:34,579 - QASystem - INFO - Received response in 3.39 seconds
+2025-03-23 18:07:34,580 - QASystem - INFO - Token usage: 1562 prompt, 375 completion
+2025-03-23 18:07:35,697 - Evaluation - INFO -   Ground truth: 43.5%
+2025-03-23 18:07:35,698 - Evaluation - INFO -   Prediction: **
+2025-03-23 18:07:35,698 - Evaluation - INFO - Processing example 9/10 (0.24/sec, ETA: 4.2 seconds)
+2025-03-23 18:07:35,698 - Evaluation - INFO - Question: what is the roi of an investment in s&p500 index from 2011 to 2012?
+2025-03-23 18:07:35,698 - Evaluation - INFO - Getting answer for: what is the roi of an investment in s&p500 index from 2011 to 2012?
+2025-03-23 18:07:35,698 - QASystem - INFO - Sending request to OpenAI API for question: what is the roi of an investment in s&p500 index from 2011 to 2012?
+2025-03-23 18:07:38,358 - QASystem - INFO - Received response in 2.66 seconds
+2025-03-23 18:07:38,358 - QASystem - INFO - Token usage: 768 prompt, 330 completion
+2025-03-23 18:07:39,283 - Evaluation - INFO -   Ground truth: 16%
+2025-03-23 18:07:39,283 - Evaluation - INFO -   Prediction: 16.0%
+2025-03-23 18:07:39,283 - Evaluation - INFO - Processing example 10/10 (0.24/sec, ETA: 0.0 seconds)
+2025-03-23 18:07:39,283 - Evaluation - INFO - Question: what is the total number of new sites acquired and constructed during 2015?
+2025-03-23 18:07:39,284 - Evaluation - INFO - Getting answer for: what is the total number of new sites acquired and constructed during 2015?
+2025-03-23 18:07:39,284 - QASystem - INFO - Sending request to OpenAI API for question: what is the total number of new sites acquired and constructed during 2015?
+2025-03-23 18:07:44,506 - QASystem - INFO - Received response in 5.22 seconds
+2025-03-23 18:07:44,507 - QASystem - INFO - Token usage: 1195 prompt, 353 completion
+2025-03-23 18:07:45,325 - Evaluation - INFO -   Ground truth: 6535
+2025-03-23 18:07:45,326 - Evaluation - INFO -   Prediction: 25,370 sites
+2025-03-23 18:07:45,326 - Evaluation - INFO - Evaluating predictions
+2025-03-23 18:07:45,335 - Evaluation - INFO - Saved evaluation report to /Users/divyanshagrawal/Desktop/Tomoro.ai Technical Assignment/outputs/reports/finqa_evaluation_20250323_180657.md
+2025-03-23 18:07:45,335 - Evaluation - INFO - Saved evaluation results to /Users/divyanshagrawal/Desktop/Tomoro.ai Technical Assignment/outputs/reports/finqa_results_20250323_180657.json

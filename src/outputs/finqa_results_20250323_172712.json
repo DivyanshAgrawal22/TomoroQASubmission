@@ -1,0 +1,179 @@
+{
+  "total": 10,
+  "correct": 4,
+  "incorrect": 6,
+  "exact_match": 4,
+  "accuracy": 40.0,
+  "exact_match_rate": 40.0,
+  "mape": 33.75,
+  "f1_score": null,
+  "question_types": {
+    "percentage": {
+      "count": 6,
+      "correct": 1,
+      "incorrect": 5,
+      "accuracy": 16.666666666666664
+    },
+    "other": {
+      "count": 3,
+      "correct": 2,
+      "incorrect": 1,
+      "accuracy": 66.66666666666666
+    },
+    "factual": {
+      "count": 1,
+      "correct": 1,
+      "incorrect": 0,
+      "accuracy": 100.0
+    }
+  },
+  "difficulty_bins": {
+    "simple": {
+      "total": 1,
+      "correct": 1,
+      "accuracy": 100.0
+    },
+    "moderate": {
+      "total": 2,
+      "correct": 1,
+      "accuracy": 50.0
+    },
+    "complex": {
+      "total": 7,
+      "correct": 2,
+      "accuracy": 28.57142857142857
+    }
+  },
+  "response_time": {
+    "mean": 4.5466703414917,
+    "median": 3.393250823020935,
+    "min": 3.046731948852539,
+    "max": 12.971957921981812,
+    "p90": 6.706160593032834,
+    "p95": 9.839059257507316
+  },
+  "error_distribution": {
+    "Missing percentage symbol": 4,
+    "Minor calculation error (difference of 0.80, 2.5% off)": 1,
+    "Major calculation error (difference of 52.40, 200.0% off)": 1
+  },
+  "token_usage": {
+    "prompt_tokens": 17170,
+    "completion_tokens": 4919,
+    "total_tokens": 22089
+  },
+  "cost": {
+    "prompt_cost": 0.042925000000000005,
+    "completion_cost": 0.04919,
+    "total_cost": 0.092115,
+    "currency": "USD"
+  },
+  "sample_details": [
+    {
+      "ground_truth": "14.1%",
+      "prediction": "14.1%",
+      "normalized_ground_truth": "14.1%",
+      "normalized_prediction": "14.1%",
+      "question": "what was the percentage change in the net cash from operating activities from 2008 to 2009",
+      "processing_time": 6.009960889816284,
+      "category": "exact_match",
+      "is_correct": true
+    },
+    {
+      "ground_truth": "1.3%",
+      "prediction": "**",
+      "normalized_ground_truth": "1.3%",
+      "normalized_prediction": "",
+      "question": "what was the percent of the growth in the revenues from 2007 to 2008",
+      "processing_time": 3.1703989505767822,
+      "category": "incorrect",
+      "is_correct": false,
+      "error_analysis": "Missing percentage symbol"
+    },
+    {
+      "ground_truth": "-32%",
+      "prediction": "-32.8%",
+      "normalized_ground_truth": "-32.0%",
+      "normalized_prediction": "-32.8%",
+      "question": "what was the percentage change in net sales from 2000 to 2001?",
+      "processing_time": 3.0793230533599854,
+      "category": "incorrect",
+      "is_correct": false,
+      "error_analysis": "Minor calculation error (difference of 0.80, 2.5% off)"
+    },
+    {
+      "ground_truth": "-26.16%",
+      "prediction": "26.2%",
+      "normalized_ground_truth": "-26.2%",
+      "normalized_prediction": "26.2%",
+      "question": "what was the difference in percentage cumulative return on investment for united parcel service inc . compared to the s&p 500 index for the five year period ended 12/31/09?",
+      "processing_time": 3.36847186088562,
+      "category": "incorrect",
+      "is_correct": false,
+      "error_analysis": "Major calculation error (difference of 52.40, 200.0% off)"
+    },
+    {
+      "ground_truth": "70.1%",
+      "prediction": "**",
+      "normalized_ground_truth": "70.1%",
+      "normalized_prediction": "",
+      "question": "what portion of the total shares subject to outstanding awards is under the 2009 global incentive plan?",
+      "processing_time": 3.1535840034484863,
+      "category": "incorrect",
+      "is_correct": false,
+      "error_analysis": "Missing percentage symbol"
+    },
+    {
+      "ground_truth": "15.6%",
+      "prediction": "**",
+      "normalized_ground_truth": "15.6%",
+      "normalized_prediction": "",
+      "question": "what was the percentage increase in litigation reserves in 2012?",
+      "processing_time": 3.046731948852539,
+      "category": "incorrect",
+      "is_correct": false,
+      "error_analysis": "Missing percentage symbol"
+    },
+    {
+      "ground_truth": "22.99%",
+      "prediction": "23.0%",
+      "normalized_ground_truth": "23.0%",
+      "normalized_prediction": "23.0%",
+      "question": "what portion of total obligations are due within the next 3 years?",
+      "processing_time": 12.971957921981812,
+      "category": "exact_match",
+      "is_correct": true
+    },
+    {
+      "ground_truth": "12",
+      "prediction": "$12.0 million",
+      "normalized_ground_truth": "12.0",
+      "normalized_prediction": "12.0",
+      "question": "for the years ended december 31 , 2013 , 2012 and 2011 , what was the total in millions capitalized to assets associated with compensation expense related to long-term compensation plans , restricted stock and stock options?\\\\n",
+      "processing_time": 3.451775074005127,
+      "category": "exact_match",
+      "is_correct": true
+    },
+    {
+      "ground_truth": "2.4%",
+      "prediction": "**",
+      "normalized_ground_truth": "2.4%",
+      "normalized_prediction": "",
+      "question": "what is the percent change in net revenue between 2007 and 2008?",
+      "processing_time": 3.7964699268341064,
+      "category": "incorrect",
+      "is_correct": false,
+      "error_analysis": "Missing percentage symbol"
+    },
+    {
+      "ground_truth": "56.6%",
+      "prediction": "56.6%",
+      "normalized_ground_truth": "56.6%",
+      "normalized_prediction": "56.6%",
+      "question": "what portion of the authorized shares of class b common stock is outstanding as of december 31 , 2017?",
+      "processing_time": 3.41802978515625,
+      "category": "exact_match",
+      "is_correct": true
+    }
+  ]
+}

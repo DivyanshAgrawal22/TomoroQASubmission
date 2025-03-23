@@ -1,0 +1,9 @@
+2025-03-23 17:26:02,810 - DataLoader - INFO - Found dataset at data/train.json
+2025-03-23 17:26:02,996 - DataLoader - INFO - Loaded 3037 examples from data/train.json
+2025-03-23 17:26:03,034 - QASystem - INFO - Initialized QA system with model: gpt-4o
+2025-03-23 17:26:03,034 - Main - INFO - Starting QA mode
+2025-03-23 17:26:23,680 - DocumentRetrieval - INFO - Extracted keywords with LLM: percentage change, growth distribution, 2000, 2002
+2025-03-23 17:26:23,767 - QASystem - INFO - Sending request to OpenAI API for question: what is the percentage change in growth distribution from 2000 to 2002?
+2025-03-23 17:26:26,565 - QASystem - INFO - Received response in 2.80 seconds
+2025-03-23 17:26:26,566 - QASystem - INFO - Token usage: 1132 prompt, 327 completion
+2025-03-23 17:26:37,043 - DataLoader - INFO - Saved results to /Users/divyanshagrawal/Desktop/Tomoro.ai Technical Assignment/src/outputs/qa_history_20250323_172637.json

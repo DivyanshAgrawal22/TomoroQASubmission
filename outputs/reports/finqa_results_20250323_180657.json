@@ -1,0 +1,183 @@
+{
+  "total": 10,
+  "correct": 3,
+  "incorrect": 7,
+  "exact_match": 3,
+  "accuracy": 30.0,
+  "exact_match_rate": 30.0,
+  "mape": 57.49632053822172,
+  "f1_score": null,
+  "question_types": {
+    "percentage": {
+      "count": 4,
+      "correct": 1,
+      "incorrect": 3,
+      "accuracy": 25.0
+    },
+    "change": {
+      "count": 3,
+      "correct": 1,
+      "incorrect": 2,
+      "accuracy": 33.33333333333333
+    },
+    "factual": {
+      "count": 3,
+      "correct": 1,
+      "incorrect": 2,
+      "accuracy": 33.33333333333333
+    }
+  },
+  "difficulty_bins": {
+    "simple": {
+      "total": 1,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    "moderate": {
+      "total": 2,
+      "correct": 1,
+      "accuracy": 50.0
+    },
+    "complex": {
+      "total": 7,
+      "correct": 2,
+      "accuracy": 28.57142857142857
+    }
+  },
+  "response_time": {
+    "mean": 3.3942285060882567,
+    "median": 3.2236138582229614,
+    "min": 2.659140110015869,
+    "max": 5.221639156341553,
+    "p90": 3.8746505260467523,
+    "p95": 4.548144841194151
+  },
+  "error_distribution": {
+    "Major calculation error (difference of 99.60, 200.0% off)": 1,
+    "Minor calculation error (difference of 0.10, 2.9% off)": 1,
+    "Major calculation error (difference of 1049996392.00, 100.0% off)": 1,
+    "Unknown error type": 1,
+    "Missing percentage symbol": 2,
+    "Major calculation error (difference of 6510.00, 99.6% off)": 1
+  },
+  "token_usage": {
+    "prompt_tokens": 15464,
+    "completion_tokens": 4416,
+    "total_tokens": 19880
+  },
+  "cost": {
+    "prompt_cost": 0.03866,
+    "completion_cost": 0.044160000000000005,
+    "total_cost": 0.08282,
+    "currency": "USD"
+  },
+  "sample_details": [
+    {
+      "ground_truth": "6.1%",
+      "prediction": "6.1%",
+      "normalized_ground_truth": "6.1%",
+      "normalized_prediction": "6.1%",
+      "question": "what was the percentage change in the redeemable noncontrolling interests from 2009 to 2010",
+      "processing_time": 3.22222900390625,
+      "category": "exact_match",
+      "is_correct": true
+    },
+    {
+      "ground_truth": "-49.8%",
+      "prediction": "49.8%",
+      "normalized_ground_truth": "-49.8%",
+      "normalized_prediction": "49.8%",
+      "question": "by what percentage did the average crack spread for sweet/sour differential decrease from 2007 to 2009?",
+      "processing_time": 2.9563770294189453,
+      "category": "incorrect",
+      "is_correct": false,
+      "error_analysis": "Major calculation error (difference of 99.60, 200.0% off)"
+    },
+    {
+      "ground_truth": "-28.0%",
+      "prediction": "-28.0%",
+      "normalized_ground_truth": "-28.0%",
+      "normalized_prediction": "-28.0%",
+      "question": "what is the growth rate in the balance of unrecognized tax benefits during 2010?",
+      "processing_time": 2.9691572189331055,
+      "category": "exact_match",
+      "is_correct": true
+    },
+    {
+      "ground_truth": "3.5%",
+      "prediction": "3.6%",
+      "normalized_ground_truth": "3.5%",
+      "normalized_prediction": "3.6%",
+      "question": "what is the growth rate of revenue from 2007 to 2008?",
+      "processing_time": 3.724985122680664,
+      "category": "incorrect",
+      "is_correct": false,
+      "error_analysis": "Minor calculation error (difference of 0.10, 2.9% off)"
+    },
+    {
+      "ground_truth": "1050000000",
+      "prediction": "$3,608 million",
+      "normalized_ground_truth": "1050000000.0",
+      "normalized_prediction": "3608",
+      "question": "based on the calculated increase in locomotive diesel fuel price in 2012 , what is the estimated total fuel cost for 2012?",
+      "processing_time": 3.65997576713562,
+      "category": "incorrect",
+      "is_correct": false,
+      "error_analysis": "Major calculation error (difference of 1049996392.00, 100.0% off)"
+    },
+    {
+      "ground_truth": "20.75",
+      "prediction": "**",
+      "normalized_ground_truth": "20.75",
+      "normalized_prediction": "",
+      "question": "at december 31 , 2009 , what was the remaining compensation expense per share for the unvested awards?",
+      "processing_time": 2.9177448749542236,
+      "category": "incorrect",
+      "is_correct": false,
+      "error_analysis": "Unknown error type"
+    },
+    {
+      "ground_truth": "11.8%",
+      "prediction": "**",
+      "normalized_ground_truth": "11.8%",
+      "normalized_prediction": "",
+      "question": "what was the percent of the growth of the the priceline group inc . from 2014 to 2015",
+      "processing_time": 3.224998712539673,
+      "category": "incorrect",
+      "is_correct": false,
+      "error_analysis": "Missing percentage symbol"
+    },
+    {
+      "ground_truth": "43.5%",
+      "prediction": "**",
+      "normalized_ground_truth": "43.5%",
+      "normalized_prediction": "",
+      "question": "what was the percent of the increase the additions for new sales of the repurchase reserve from 2008 to 2009",
+      "processing_time": 3.386038064956665,
+      "category": "incorrect",
+      "is_correct": false,
+      "error_analysis": "Missing percentage symbol"
+    },
+    {
+      "ground_truth": "16%",
+      "prediction": "16.0%",
+      "normalized_ground_truth": "16.0%",
+      "normalized_prediction": "16.0%",
+      "question": "what is the roi of an investment in s&p500 index from 2011 to 2012?",
+      "processing_time": 2.659140110015869,
+      "category": "exact_match",
+      "is_correct": true
+    },
+    {
+      "ground_truth": "6535",
+      "prediction": "25,370 sites",
+      "normalized_ground_truth": "6535.0",
+      "normalized_prediction": "25.0",
+      "question": "what is the total number of new sites acquired and constructed during 2015?",
+      "processing_time": 5.221639156341553,
+      "category": "incorrect",
+      "is_correct": false,
+      "error_analysis": "Major calculation error (difference of 6510.00, 99.6% off)"
+    }
+  ]
+}

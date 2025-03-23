@@ -1,0 +1,62 @@
+flowchart TD
+    %% Main entry points
+    A[Start] --> B{Choose Mode}
+    B -->|Interactive QA| C[Load Knowledge Base]
+    B -->|Evaluation| L[Load Evaluation Dataset]
+    
+    %% Interactive QA Flow
+    C --> D[Receive User Question]
+    D --> E[Extract Keywords]
+    E --> F[Retrieve Relevant Document]
+    F --> G[Format Document Context]
+    G --> H[Generate Answer with LLM]
+    H --> I[Extract Final Answer]
+    H --> J[Extract Reasoning Steps]
+    I --> K[Present Answer to User]
+    J --> K
+    K --> D
+    
+    %% Evaluation Flow
+    L --> M[Randomize Examples]
+    M --> N[Apply Example Limit]
+    N --> O[Process Each Example]
+    O --> P[Record Predictions & Ground Truth]
+    P --> Q[Calculate Performance Metrics]
+    Q --> R[Generate Evaluation Report]
+    
+    %% Answer Generation Subprocess
+    subgraph "Answer Generation Process"
+        G1[Format Document Context] --> G2[Send Query to LLM]
+        G2 --> G3[Receive LLM Response]
+        G3 --> G4[Extract Final Answer]
+        G3 --> G5[Extract Reasoning Steps]
+        G4 --> G6[Return Structured Answer]
+        G5 --> G6
+    end
+    
+    %% Document Retrieval Subprocess
+    subgraph "Document Retrieval Process"
+        E1[Extract Keywords from Question] --> E2[Score Documents by Relevance]
+        E2 --> E3[Sort Documents by Score]
+        E3 --> E4[Return Top K Documents]
+    end
+    
+    %% Metrics Calculation Subprocess
+    subgraph "Performance Metrics Calculation"
+        Q1[Calculate Basic Metrics\nAccuracy, Exact Match] --> Q2[Calculate Advanced Metrics\nMAPE, F1 Score]
+        Q2 --> Q3[Analyze by Question Type]
+        Q3 --> Q4[Analyze by Difficulty]
+        Q4 --> Q5[Analyze Error Distribution]
+        Q5 --> Q6[Calculate Response Time Stats]
+    end
+    
+    %% Key Components
+    style G fill:#f9d,stroke:#333,stroke-width:2px
+    style H fill:#f9d,stroke:#333,stroke-width:2px
+    style F fill:#bbf,stroke:#333,stroke-width:2px
+    style Q fill:#bfb,stroke:#333,stroke-width:2px
+    
+    %% Subprocess linking
+    F -.-> E1
+    H -.-> G1
+    Q -.-> Q1
