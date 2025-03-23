@@ -6,6 +6,8 @@ An agentic system based on ConvFinQA dataset designed to answer questions about 
 
 This project implements a Financial Document QA system that uses Large Language Models (LLMs) to answer natural language questions about financial data. The system is built to handle complex financial documents that contain both textual information and tabular data. It can perform various types of analysis, including numerical calculations, percentage changes, trend analysis, and more.
 
+The project is explained through a flowchart of the logic (**Architecture Flowchart.png**). I built this flowchart in Mermaid, code to which is in the file named `architecture_flowchart.mermaid`.
+
 ## Features
 
 - **Financial Document Analysis**: Processes financial documents with text and tables
@@ -27,22 +29,18 @@ financial_qa/
 ├── requirements.txt          # Dependencies
 │
 ├── data/                     # Data handling
-│   ├── __init__.py           # Package initialization
 │   ├── data_loader.py        # Dataset loading
 │   └── document_utils.py     # Document processing
 │
 ├── models/                   # Model components
-│   ├── __init__.py           # Package initialization
 │   ├── qa_system.py          # QA system
 │   └── document_retrieval.py # Retrieval functionality
 │
 ├── evaluation/               # Evaluation
-│   ├── __init__.py           # Package initialization
 │   ├── metrics.py            # Enhanced metrics
 │   └── reporting.py          # Report generation
 │
 ├── utils/                    # Utilities
-│   ├── __init__.py           # Package initialization
 │   ├── text_processing.py    # Text normalization
 │   └── logging_utils.py      # Logging setup
 │
@@ -51,6 +49,34 @@ financial_qa/
     ├── reports/              # Evaluation reports
     └── qa_history/           # QA session history
 ```
+
+`**data/**` - *Handles all data-related operations*
+
+* Loading datasets from JSON files
+* Parsing and formatting document content
+* Document scoring and retrieval functionality
+* Common utilities for working with financial documents
+
+
+`**models/**` - *Contains the core QA system implementation*
+
+* The main QA system class that processes questions and generates answers
+* Document retrieval algorithms for finding relevant documents
+* Interface with the OpenAI API for LLM-based question answering
+
+
+`**evaluation/**` - *Manages the evaluation framework*
+
+* Metrics calculation for measuring system performance
+* Report generation for evaluation results
+* Error analysis and categorization
+* Evaluation utilities for processing results
+
+
+`**utils/**` - *Houses general utility functions*
+
+* Text processing utilities for normalizing answers
+* Logging setup and configuration
 
 ## Requirements
 
